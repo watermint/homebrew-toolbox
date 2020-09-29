@@ -1,8 +1,8 @@
 class Toolbox < Formula
   desc "CLI tools for Dropbox and Dropbox Business"
   homepage "https://github.com/watermint/toolbox"
-  url "https://github.com/watermint/toolbox/releases/download/75.4.640/tbx-75.4.640-mac.zip"
-  sha256 "b3d60f92692b5c503a569e93a1a49ea2388e796dc143c918ac0691652e50c6b4"
+  url "https://github.com/watermint/toolbox/releases/download/76.4.671/tbx-76.4.671-mac.zip"
+  sha256 "fa564465d0ec6eb417644331d74b59bd756d855cb9e8c20d4f26ceaf74d4e665"
 
   def install
     bin.install "tbx"
