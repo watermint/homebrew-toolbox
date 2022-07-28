@@ -1,22 +1,22 @@
 class Toolbox < Formula
   desc "The multi-purpose utility command-line tool for web services including Dropbox, Dropbox Business, Google, GitHub, etc."
   homepage "https://github.com/watermint/toolbox"
-  version "105.8.1229"
+  version "106.8.1232"
   license "MIT"
 
   on_linux do
-    url    "https://github.com/watermint/toolbox/releases/download/105.8.1229/tbx-105.8.1229-linux.zip"
-    sha256 "b6c5b52eb323c06e4e13e324c609e2c9ab6c4e200335e261ff9d208e9291c08c"
+    url    "https://github.com/watermint/toolbox/releases/download/106.8.1232/tbx-106.8.1232-linux.zip"
+    sha256 "fa83439cfaa4eaaa52bc78bb54e843ab199313ded05f5b70ebec6c80b516f2c0"
   end
 
   on_macos do
     on_arm do
-      url    "https://github.com/watermint/toolbox/releases/download/105.8.1229/tbx-105.8.1229-mac-arm.zip"
-      sha256 "8dad1a060ce22103f45f3b6bef9283c65a305a409fd37757b8fcb64da4bd86dc"
+      url    "https://github.com/watermint/toolbox/releases/download/106.8.1232/tbx-106.8.1232-mac-arm.zip"
+      sha256 "bd475f04aff61adca07b592f281abff0fdaabb6b9d7d265cfe2a8c7f544074b5"
     end
     on_intel do
-      url    "https://github.com/watermint/toolbox/releases/download/105.8.1229/tbx-105.8.1229-mac.zip"
-      sha256 "754f8b531d599710cda9acc6aabf271352d98bd4e95ba99b192c5ae76b73ab5c"
+      url    "https://github.com/watermint/toolbox/releases/download/106.8.1232/tbx-106.8.1232-mac.zip"
+      sha256 "e795ea6bec6c13945055b0eb73e1a8b98dce38b153bef2349ed4f323b3e51ca3"
     end
   end
 
